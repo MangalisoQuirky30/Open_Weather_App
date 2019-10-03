@@ -48,7 +48,7 @@ namespace OpenWeatherConsoleAppLibrary
         public int sunset { get; set; }
     }
 
-    public class weatherDetails
+    public class WeatherDetails
     {
         public Coord coord { get; set; }
         public List<Weather> weather { get; set; }

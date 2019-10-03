@@ -8,8 +8,8 @@ namespace OpenWeatherConsoleApp
     {
         static async Task Main(string[] args)
         {
-            getWeather weather = new getWeather();
-            string weatherNow = await weather.getWeatherAsync();
+            GetWeather weather = new GetWeather();
+            string weatherNow = await weather.GetWeatherAsync();
             Console.WriteLine(weatherNow);
         }
     }
